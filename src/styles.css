@@ -1,0 +1,73 @@
+.tittle {
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-family: "Press Start 2P";
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+    width: 250px;
+    height: 30px;
+    border: rgb(27, 136, 209) 3px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: "Press Start 2P";
+}
+.buttonGuess {
+    width: 260px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: rgb(27, 136, 209);
+    text-align: center;
+    color: white;
+    border: rgb(142, 141, 141) 3px solid;
+    font-family: "Press Start 2P";
+}
+
+.image {
+    width: 350px;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.imageReveled {
+    width: 290px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.image img {
+    height: 100%;
+}
+
+.buttonPlayAgain {
+    width: 260px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: rgb(27, 136, 209);
+    text-align: center;
+    color: white;
+    border: black 3px solid;
+    font-family: "Press Start 2P";
+    
+}
+
+.score {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: "Press Start 2P";
+}
