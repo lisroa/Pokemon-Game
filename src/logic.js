@@ -2,11 +2,12 @@ import { useState } from "react";
 import './styles.css'
 
 
+
 const pokemones = [
   { 
     name:"Gengar",
     imagenIncognita: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/56-14.jpg",
-    imagenRevelada: "https://i2.wp.com/assets.gamepur.com/wp-content/uploads/2022/08/18090601/Gengar-Pokemon-Go.jpg"
+    imagenRevelada: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/60-10.jpg"
     }, 
     
     {
@@ -21,7 +22,43 @@ const pokemones = [
     imagenRevelada: "https://images.wikidexcdn.net/mwuploads/wikidex/4/40/latest/20180112041336/EP999_Jigglypuff.png"
     
     },
-    ]
+    {
+      name:"Zubat",
+      imagenIncognita: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/11-43.jpg",
+      imagenRevelada: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/15-38.jpg"
+      },
+      {
+        name:"Seedot",
+        imagenIncognita: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/91.jpg",
+        imagenRevelada: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/95.jpg"
+      },
+      {
+        name:"Abra",
+        imagenIncognita: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/26-22.jpg",
+        imagenRevelada: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/30-22.jpg"
+      },
+      {
+        name:"Larvitar",
+        imagenIncognita: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/51-15.jpg",
+        imagenRevelada: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/55-15.jpg"
+      },
+      {
+        name:"Dragonair",
+        imagenIncognita: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/61-8.jpg",
+        imagenRevelada: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/65-6.jpg"
+      },
+      {
+        name:"Vileplume",
+        imagenIncognita: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/16-31.jpg",
+        imagenRevelada: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/20-27.jpg"
+      },
+      
+      {
+        name:"Mareep",
+        imagenIncognita: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/46-18.jpg",
+        imagenRevelada: "http://quiz.upsocl.com/q/wp-content/uploads/2017/09/50-16.jpg"
+      }
+      ]
 
     const getRandomInt = (min, max) => {
       min = Math.ceil(min);
@@ -49,13 +86,14 @@ function ShowGameOnScreen () {
   console.log(possibleName)
 if (possibleName.toLowerCase() == pokemon.name.toLowerCase()) {
       setWins(wins + 1) 
+     
       
   } else {
       setLosses(losses + 1)
+      setPokemon(getRandomPokemon(pokemones));
+      
   }
-  
-  console.log(pokemon.name)
-  setShowPokemon(true)
+     setShowPokemon(true)
 }
 
 
