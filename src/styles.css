@@ -2,7 +2,7 @@
     justify-content: center;
     text-align: center;
     padding: 5px;
-    font-family: "Press Start 2P";
+    font-family: 'Press Start 2P', cursive;
 }
 
 .form {
@@ -18,7 +18,7 @@
     border: rgb(27, 136, 209) 3px solid;
     border-radius: 5px;
     margin-top: 10px;
-    font-family: "Press Start 2P";
+    font-family: 'Press Start 2P', cursive;
 }
 .buttonGuess {
     width: 260px;
@@ -28,7 +28,7 @@
     text-align: center;
     color: white;
     border: rgb(142, 141, 141) 3px solid;
-    font-family: "Press Start 2P";
+    font-family: 'Press Start 2P', cursive;
 }
 
 .image {
@@ -61,7 +61,7 @@
     text-align: center;
     color: white;
     border: black 3px solid;
-    font-family: "Press Start 2P";
+    font-family: 'Press Start 2P', cursive;
     
 }
 
@@ -69,5 +69,5 @@
     text-align: center;
     justify-content: center;
     font-weight: bold;
-    font-family: "Press Start 2P";
+    font-family: 'Press Start 2P', cursive;
 }
