@@ -84,17 +84,17 @@ function ShowGameOnScreen () {
   event.preventDefault();
   const possibleName = event.target.pokemonName.value;
   console.log(possibleName)
-if (possibleName.toLowerCase() == pokemon.name.toLowerCase()) {
+  if (possibleName.trim()) {
+    if (possibleName.toLowerCase() == pokemon.name.toLowerCase()) {
       setWins(wins + 1) 
+      setShowPokemon(true)
      
-      
   } else {
-      setLosses(losses + 1)
-      setPokemon(getRandomPokemon(pokemones));
-      
+    setLosses(losses + 1) 
+    setShowPokemon(true)
+    setPokemon(getRandomPokemon(pokemones));
   }
-     setShowPokemon(true)
-}
+}}
 
 
 
