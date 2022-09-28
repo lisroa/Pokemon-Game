@@ -7,17 +7,17 @@ html, body, #root, .App {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image:url('./img/pokemonBackground.jpg');
- 
+  background: url('../public/img/pokemon-background-2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 .container {
-  min-height: 80%;
-  width: 30%;
   overflow: hidden;
-  background-color: white;
-  border-radius: 20px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
+  display: flex !important;
+  justify-content: center;
+  align-content: center;
 }

@@ -1,4 +1,13 @@
-.tittle {
+.card {
+    min-height: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.title {
     justify-content: center;
     text-align: center;
     padding: 5px;
@@ -12,57 +21,38 @@
   flex-direction: column;
 }
 
-.input {
-    width: 250px;
-    height: 30px;
-    border: rgb(27, 136, 209) 3px solid;
-    border-radius: 5px;
-    margin-top: 10px;
+.form input {
     font-family: 'Press Start 2P', cursive;
 }
-.buttonGuess {
-    width: 260px;
-    height: 30px;
-    margin-top: 5px;
-    background-color: rgb(27, 136, 209);
-    text-align: center;
-    color: white;
-    border: rgb(142, 141, 141) 3px solid;
+
+.form button {
     font-family: 'Press Start 2P', cursive;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image {
-    width: 350px;
-    height: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20px;
-}
-
-.imageReveled {
-    width: 290px;
-    height: 290px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20px;
+    width: 90%;
+    height: 300px;
 }
 
 .image img {
     height: 100%;
 }
 
-.buttonPlayAgain {
-    width: 260px;
-    height: 30px;
-    margin-top: 5px;
-    background-color: rgb(27, 136, 209);
-    text-align: center;
-    color: white;
-    border: black 3px solid;
+.buttonPlayAgainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonPlayAgainContainer button {
     font-family: 'Press Start 2P', cursive;
-    
 }
 
 .score {
@@ -70,4 +60,10 @@
     justify-content: center;
     font-weight: bold;
     font-family: 'Press Start 2P', cursive;
+}
+
+.credits span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
