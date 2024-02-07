@@ -1,7 +1,10 @@
+<p align="center">Converti mi pasatiempo de la infancia de jugar "Quien es este pokemon?" antes de ir a la escuela, en un juego divertido e interactivo que todos pueden disfrutar.</p>
+
+
 <div>
   
   <ul align="center">
-   <h2 style="display: inline-block">Tecnologías utilizadas en el proyecto</h2>
+   <h4 style="display: inline-block">Tecnologías utilizadas en el proyecto</h4>
   </ul>
 </div>
 
